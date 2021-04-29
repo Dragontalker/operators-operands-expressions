@@ -50,5 +50,10 @@ public class Main {
         result /= 3; // 30 / 3 = 10
         System.out.println("30 / 3 = " + result);
         System.out.println("previousResult = " + previousResult);
+
+        // result = result - 2
+        result -= 2; // 10 - 2 = 8
+        System.out.println("10 - 2 = " + result);
+        System.out.println("previousResult = " + previousResult);
     }
 }
