@@ -30,5 +30,10 @@ public class Main {
         result++; // 1 + 1 + 2
         System.out.println("1 + 1 = " + result);
         System.out.println("previousResult = " + previousResult);
+
+        // result = result - 1;
+        result--;
+        System.out.println("2 - 1 = " + result);
+        System.out.println("previousResult = " + previousResult);
     }
 }
