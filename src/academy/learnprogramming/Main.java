@@ -25,5 +25,10 @@ public class Main {
         result = result % 3; // the remainder of (4 % 3) = 1
         System.out.println("4 % 3 = " + result);
         System.out.println("previousResult = " + previousResult);
+
+        // result = result + 1;
+        result++; // 1 + 1 + 2
+        System.out.println("1 + 1 = " + result);
+        System.out.println("previousResult = " + previousResult);
     }
 }
