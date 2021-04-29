@@ -40,5 +40,10 @@ public class Main {
         result += 2;
         System.out.println("1 + 2 = " + result);
         System.out.println("previousResult = " + previousResult);
+
+        // result = result * 10;
+        result *= 10;
+        System.out.println("3 * 10 = " + result);
+        System.out.println("previousResult = " + previousResult);
     }
 }
